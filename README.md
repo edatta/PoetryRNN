@@ -3,7 +3,9 @@
 This code is based on the Keras tutorial here: 
 https://github.com/fchollet/keras/blob/master/examples/lstm_text_generation.py
 
-I've adapted this model to run at the word level (treating spaces and punctuation as "words" as well).  When trained on Yeats, it came up with this masterpiece:
+This code uses an LSTM (Long Short Term Memory) Network which is a kind of recurrent neural network designed to learn long term dependencies.  I've adapted this model to run at the word level (treating spaces and punctuation as "words" as well).  
+
+### When trained on Yeats, it came up with this masterpiece:
 
 *they had come to the happy.*
 
